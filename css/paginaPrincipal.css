@@ -8,7 +8,6 @@
 /* Estilo del body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #141414;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -17,6 +16,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/ñefli.jpg');
+  background-color: #141414;
   background-size: cover;
   background-position: center;
 }
@@ -535,11 +535,11 @@ body {
 }
 
 .visualizaciones h2 {
-  margin-right: 10px;
   display: flex; /* Aplica Flexbox a la etiqueta <p> */
   align-items: center; /* Centra el contenido verticalmente */
   justify-content: center; /* Centra el contenido horizontalmente */
   margin: 0; /* Elimina el margen por defecto de <p> */
+  margin-right: 10px;
   text-align: center; /* Centra el texto en caso de que haya más de una línea */
 }
 

@@ -26,7 +26,7 @@ let registrarPelicula = async()=>{
 
     console.log(campos.arrayActors);
 
-    const peticion = await fetch("http://localhost:8080/v1/content/films",
+    await fetch("http://localhost:8080/v1/content/films",
     {   method: 'POST',
         headers: {
         'Accept': 'application/json',

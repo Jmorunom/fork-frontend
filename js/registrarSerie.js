@@ -40,7 +40,6 @@ let registrarSerie = async () => {
         });
 
         if (peticion.ok) {
-            const resultado = await peticion.json();
             alert("Serie registrada con éxito.");
             // Puedes redirigir o hacer algo más después del registro exitoso
         } else {
