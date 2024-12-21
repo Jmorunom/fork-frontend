@@ -32,6 +32,5 @@ let eliminarLista = async () => {
 
 // Función para cancelar la eliminación y redirigir al usuario
 document.getElementById("btn-cancelarEliminacion").addEventListener("click", evento => {
-    const userID = sessionStorage.getItem("userID");
     window.location.href = "verListas.html";
 });

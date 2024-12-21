@@ -47,7 +47,6 @@ let registrarEpisodio = async (serieID) => {
         });
 
         if (peticion.ok) {
-            const resultado = await peticion.json();
             alert("Episodio registrado con éxito.");
         } else {
             const error = await peticion.json();
